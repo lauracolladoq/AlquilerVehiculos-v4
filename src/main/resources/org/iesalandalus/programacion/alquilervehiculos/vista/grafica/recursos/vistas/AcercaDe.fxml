@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="346.0" prefWidth="469.0" style="-fx-background-color: #131313;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.iesalandalus.programacion.alquilervehiculos.vista.grafica.controladores.AcercaDe">
+   <children>
+      <ImageView fx:id="ivLogotipo" fitHeight="211.0" fitWidth="245.0" pickOnBounds="true" preserveRatio="true" style="-fx-effect: dropshadow(gaussian, #fff, 1, 0, 0, 0);;" />
+      <Label text="Aplicación diseñada por Laura Collado Quirantes" />
+      <GridPane alignment="TOP_CENTER" maxWidth="-Infinity" prefHeight="78.0" prefWidth="224.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="205.20001220703125" minWidth="10.0" prefWidth="30.00001220703125" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="325.2000045776367" minWidth="10.0" prefWidth="184.39998779296874" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Hyperlink fx:id="hlGit" onAction="#abrirEnlace" prefHeight="24.0" prefWidth="186.0" text="https://github.com/lauracolladoq" GridPane.columnIndex="1" />
+            <Label alignment="TOP_CENTER" contentDisplay="CENTER" text="laucolqui@gmail.com" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Label prefHeight="18.0" prefWidth="297.0" text="+34 635 069 885" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <ImageView fx:id="ivCorreo" fitHeight="16.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="1" />
+            <ImageView fx:id="ivTelefono" fitHeight="16.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="2" />
+            <ImageView fx:id="ivWeb" fitHeight="16.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+      </GridPane>
+   </children>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</VBox>

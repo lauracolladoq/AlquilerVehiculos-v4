@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="208.0" prefWidth="609.0" spacing="20.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.iesalandalus.programacion.alquilervehiculos.vista.grafica.controladores.BuscadorVehiculo">
+   <children>
+      <GridPane hgap="10.0" vgap="10.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="270.199951171875" minWidth="10.0" prefWidth="73.2" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="500.60003662109375" minWidth="10.0" prefWidth="393.20000000000005" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Label text="MARCA" GridPane.halignment="RIGHT" />
+            <Label text="MATRÍCULA" GridPane.halignment="RIGHT" GridPane.rowIndex="1" />
+            <Label text="MODELO" GridPane.halignment="RIGHT" GridPane.rowIndex="2" />
+            <Label fx:id="lbMatricula" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Label fx:id="lbMarca" GridPane.columnIndex="1" />
+            <Label fx:id="lbModelo" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+         </children>
+      </GridPane>
+      <HBox alignment="CENTER" spacing="20.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#mostrarAlquileresVehiculo" text="MOSTRAR ALQUILERES" />
+            <Button mnemonicParsing="false" onAction="#devolverAlquilerVehiculo" text="DEVOLVER ALQUILER" />
+            <Button mnemonicParsing="false" onAction="#eliminarVehiculo" text="ELIMINAR" />
+            <Button mnemonicParsing="false" onAction="#cancelar" text="CANCELAR" />
+         </children>
+      </HBox>
+   </children>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</VBox>

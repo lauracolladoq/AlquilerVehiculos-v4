@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<clientes>
+    <cliente dni="11223344B" nombre="Bob Esponja" telefono="950112233"/>
+    <cliente dni="11111111H" nombre="Patricio Estrella" telefono="950111111"/>
+    <cliente dni="77247253M" nombre="Laura Collado" telefono="635069885"/>
+    <cliente dni="77170670N" nombre="Antonio Ortiz" telefono="635069886"/>
+    <cliente dni="75720662Q" nombre="Daniel Mendez" telefono="635069887"/>
+    <cliente dni="77247252G" nombre="Maria Collado" telefono="652981629"/>
+    <cliente dni="68935088V" nombre="Pepito Grillo" telefono="777777777"/>
+    <cliente dni="66126260H" nombre="Eric Cartman" telefono="888888888"/>
+    <cliente dni="33829566Q" nombre="Paula Lopez" telefono="444333222"/>
+</clientes>

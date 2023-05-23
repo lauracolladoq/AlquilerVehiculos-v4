@@ -1,0 +1,173 @@
+/* Tipo de letra */
+{
+	-fx-font-family: Arial;
+	-fx-text-fill: #fff;
+	-fx-font-size: 12px;
+}
+
+/* Fondo */
+.root {
+	-fx-background-color: #131313;
+}
+
+/* Botones */
+.button {
+	-fx-background-color: #000000;
+	-fx-text-fill: #fff;
+	-fx-font-size: 12px; 
+}
+
+.button:hover {
+	-fx-effect: dropshadow(gaussian, #fff, 10, 0, 0, 0);
+}
+
+/* MenuBar y MenuItem */
+.menu-bar {
+	-fx-background-color: #000000;
+	-fx-text-fill: #fff;
+}
+
+.menu-item {
+	-fx-background-color: #000000;
+	-fx-text-fill: #fff;
+	-fx-accent: #000000;
+}
+.menu .label {
+	-fx-background-color: #000000;
+	-fx-accent: #000000;
+}
+
+/* Contenedores */
+.hbox, .vbox, .grid-pane {
+	-fx-background-color: #000000;
+}
+
+/* Etiquetas y campos de texto */
+.label, .text-field {
+	-fx-background-color: #131313;
+	-fx-text-fill: #fff;
+}
+
+.text-field {	
+	-fx-background-color: #000000;
+	-fx-text-fill: #fff;
+}
+
+/* Tablas */
+.table-view {
+	-fx-background-color: #000000;
+}
+
+.table-column {
+	-fx-background-color: #000000;
+	-fx-text-fill: #fff;
+}
+
+/* Imagenes */
+.image-view {
+	-fx-effect: dropshadow(gaussian, #fff, 4, 0, 0, 0); 
+}
+
+/* Imagenes del Acerca de */
+.image-view#ivCorreo,
+.image-view#ivTelefono,
+.image-view#ivWeb,
+.image-view#ivLogotipo {
+	-fx-effect: dropshadow(gaussian, #fff, 0, 0, 0, 0);
+}
+
+/* Dialogos */
+.dialog-pane {
+	-fx-background-color: #131313;
+}´
+
+.dialog-pane .text {
+	-fx-fill: #fff;
+}
+
+/* Calendario */
+.date-picker .arrow-button {
+	-fx-background-color: #000000;
+}
+
+.date-picker .arrow-button:hover {
+	-fx-effect: dropshadow(gaussian, #fff, 10, 0, 0, 0);
+}
+
+.date-picker .arrow-button .arrow {
+	-fx-background-color: white;
+}
+
+.date-picker .cell {
+	-fx-background-color: #131313;
+}
+
+.date-picker .cell:hover {
+	-fx-background-color: #000000;
+}
+
+.date-picker .selected {
+	-fx-background-color: #000000;
+	-fx-text-fill: white;
+}
+
+.date-picker-popup .month-year-pane {
+	-fx-background-color: #000000;
+}
+
+.date-picker-popup .month-year-pane .label {
+	-fx-text-fill: white;
+}
+
+.date-picker-popup .week-number-cell {
+	-fx-text-fill: white;
+	-fx-background-color: #000000;
+}
+
+/* Combo box */
+.combo-box .text-field {
+	-fx-background-color: #000000;
+	-fx-text-fill: #ffffff;
+}
+
+.combo-box .arrow-button {
+	-fx-background-color: #000000;
+	-fx-text-fill: #ffffff;
+}
+
+.combo-box .list-cell {
+	-fx-background-color: #000000;
+	-fx-text-fill: #ffffff;
+}
+
+/* Estadisticas */
+.chart-pie-label {
+	-fx-fill: #ffffff;
+}
+
+.chart-pie-label-line {
+	-fx-stroke: #ffffff;
+	-fx-fill: #ffffff;
+     
+}
+
+.negative.chart-pie {
+	-fx-pie-color: transparent;
+	-fx-background-color: #ffffff;
+}
+
+.default-color0.chart-pie { -fx-pie-color: #581845; }
+.default-color1.chart-pie { -fx-pie-color: #900C3F; }
+.default-color2.chart-pie { -fx-pie-color: #C70039; }
+.default-color3.chart-pie { -fx-pie-color: #581845; }
+.default-color4.chart-pie { -fx-pie-color: #900C3F; }
+.default-color5.chart-pie { -fx-pie-color: #C70039; }
+
+.chart-legend { -fx-background-color: #000000; }  
+
+.chart-legend-item {
+	-fx-background-color: #000000;
+}
+
+
+
